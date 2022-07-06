@@ -6,7 +6,7 @@ Console.WriteLine("Hello " + aFriend);
 Console.WriteLine($"Hello {aFriend}");
 
 
-length
+//length
 string firstFriend = "Maria";
 string secondFriend = "Sage";
 Console.WriteLine($"My friends are {firstFriend} and {secondFriend}");
@@ -15,7 +15,7 @@ Console.WriteLine($"The name {firstFriend} has {firstFriend.Length} letters.");
 Console.WriteLine($"The name {secondFriend} has {secondFriend.Length} letters.");
 
 
-cortar espaços final da mensagem e começo
+//cortar espaços final da mensagem e começo
 
 string greeting = "      Hello World!       ";
 Console.WriteLine($"[{greeting}]");
@@ -34,34 +34,32 @@ Console.WriteLine($"[{greeting}]");
 
 
 
-substituir texto
+//substituir texto
 
 string sayHello = "O peito do pé de Pedro e preto";
 Console.WriteLine(sayHello);
 sayHello = sayHello.Replace("Pedro", "Mauro");
 Console.WriteLine(sayHello);
 
-tudo em maiusculas: 
+//tudo em maiusculas: 
 Console.WriteLine(sayHello.ToUpper());
-tudo em minusculas:
+//tudo em minusculas:
 Console.WriteLine(sayHello.ToLower());
 
-
-Contains// localizar texto em uma cadeia de caracteres
+//localizar texto em uma cadeia de caracteres
+//Contains
 string songLyrics = "You say goodbye, and I say hello";
 Console.WriteLine(songLyrics.Contains("goodbye"));
 Console.WriteLine(songLyrics.Contains("greetings"));
 
-Começa com ../ terminna com ..
-
-
+//Começa com ../ terminna com ..
 string songLyrics = "You say goodbye, and I say hello";
 Console.WriteLine(songLyrics.StartsWith("You"));
 Console.WriteLine(songLyrics.StartsWith("goodbye"));
 
 Console.WriteLine(songLyrics.EndsWith("hello"));
 Console.WriteLine(songLyrics.EndsWith("goodbye"));
-***
+//***
 string songLyrics = "You say goodbye, and I say hello.";
 Console.WriteLine(songLyrics.StartsWith("You"));
 Console.WriteLine(songLyrics.EndsWith("hello"));
@@ -71,3 +69,4 @@ Console.WriteLine(songLyrics.EndsWith("hello"));
 
 
 
+Sobre a pergunta que me foi feita a respeito da pregação na praça segue o anúncio de Betel:
